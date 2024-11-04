@@ -1,2 +1,0 @@
-Testimuokkaus 1
-gat add -p -testi
