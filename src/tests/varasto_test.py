@@ -51,12 +51,12 @@ class TestVarasto(unittest.TestCase):
         self.varasto = Varasto(10)
         self.varasto.ota_varastosta(100)
         self.assertEqual(self.varasto.saldo, 0)
-    
+
     def test_liian_suuri_lisays_korjataan(self):
         self.varasto = Varasto(10)
         self.varasto.lisaa_varastoon(100)
         self.assertEqual(self.varasto.saldo, 10)
-    
+
     def test_negatiivinen_lisays_hylataan(self):
         self.varasto = Varasto(10)
         self.varasto.lisaa_varastoon(-1)
