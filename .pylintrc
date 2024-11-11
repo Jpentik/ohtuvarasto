@@ -18,6 +18,16 @@ disable=raw-checker-failed,
 
 [FORMAT]
 
+max-line-length = 80
+max-module-lines = 500
+
+
 [REFACTORING]
 
+max-nested-blocks = 2
+
+
 [DESIGN]
+
+max-args=4
+max-statements = 45
